@@ -12,17 +12,16 @@ The complete project report can be found in the following file:
 ```
 space_debris_detection/
 ├── src/
+│   ├── detect.py           # Detection script
+│   ├── generate_report.py  # (not needed)
+│   ├── inference.py        # (not needed)
+│   ├── model.py            # (not needed)
+│   ├── train.py            # (not needed)
 │   ├── trainyolo.py       # YOLOv8 training script
-│   ├── detect.py          # Detection script
-│   └── generate_report.py  # Performance report generation
-├── data/
-│   └── data.yaml          # Dataset configuration
- best_model.pth     # Trained model weights
-├── results/
-│   └── detection_results/  # Output results from detection
-├── requirements.txt        # Project dependencies
 ├── README.md               # This file
 ├── best.pt                 # Trained model weights
+├── data.yaml          # Dataset configuration
+├── requirements.txt        # Project dependencies
 
 ```
 
