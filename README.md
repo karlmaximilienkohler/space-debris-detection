@@ -37,11 +37,6 @@ space_debris_detection/
    python src/detect.py
    ```
 
-3. **Generate performance report**:
-   ```bash
-   python src/generate_report.py
-   ```
-
 ## Model Performance
 
 The YOLOv8 model achieves:
@@ -50,8 +45,4 @@ The YOLOv8 model achieves:
 - Mean Recall: 0.767
 - Mean F1-Score: 0.792
 
-For detailed analysis and discussion, please refer to the main report document.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
