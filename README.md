@@ -5,7 +5,7 @@ This repository contains the implementation of a space debris detection system u
 ## Main Report
 
 The complete project report can be found in the following file:
-- [Individual Assignment - DAI - Karl M. Kohler.docx](Individual%20Assignment%20-%20DAI%20-%20Karl%20M.%20Kohler.docx)
+- https://docs.google.com/document/d/1axz7BPfr0VJEWtgjHwULlhI2wqHD9cM08ZQ7w8w7cmI/edit?tab=t.0
 
 ## Project Structure
 
