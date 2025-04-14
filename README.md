@@ -5,7 +5,7 @@ This project implements a space debris detection system using YOLOv8, developed 
 ## Main Report
 
 The complete project report can be found in the following file:
-- [Individual Assignment - DAI - Karl M. Kohler.docx](Individual%20Assignment%20-%20DAI%20-%20Karl%20M.%20Kohler.docx)
+- https://docs.google.com/document/d/1axz7BPfr0VJEWtgjHwULlhI2wqHD9cM08ZQ7w8w7cmI/edit?usp=sharing
 
 ## Project Structure
 
@@ -23,9 +23,8 @@ space_debris_detection/
 │   └── detection_results/  # Output results from detection
 ├── requirements.txt        # Project dependencies
 ├── README.md               # This file
-├── Individual Assignment - DAI - Karl M. Kohler.docx  # Complete project report
 ├── .gitignore              # Files to ignore in the repository
-└── LICENSE                 # License information
+
 ```
 
 ## Quick Start
