@@ -17,13 +17,12 @@ space_debris_detection/
 │   └── generate_report.py  # Performance report generation
 ├── data/
 │   └── data.yaml          # Dataset configuration
-├── models/
-│   └── best_model.pth     # Trained model weights
+ best_model.pth     # Trained model weights
 ├── results/
 │   └── detection_results/  # Output results from detection
 ├── requirements.txt        # Project dependencies
 ├── README.md               # This file
-├── .gitignore              # Files to ignore in the repository
+├── best.pt                 # Trained model weights
 
 ```
 
