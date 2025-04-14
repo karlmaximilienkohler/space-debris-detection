@@ -1,51 +1,49 @@
-# Space Debris Detection using Transformers
+# Space Debris Detection using YOLOv8
 
-This project focuses on detecting space debris using transformer-based models. The goal is to develop an accurate and efficient system for identifying space debris in satellite imagery.
+This repository contains the implementation of a space debris detection system using YOLOv8, developed as part of the Designing AI course.
+
+## Main Report
+
+The complete project report can be found in the following file:
+- [Individual Assignment - DAI - Karl M. Kohler.docx](Individual%20Assignment%20-%20DAI%20-%20Karl%20M.%20Kohler.docx)
 
 ## Project Structure
-```
-space_debris_detection/
-├── data/               # Dataset and data processing scripts
-├── models/            # Saved model checkpoints
-├── notebooks/         # Jupyter notebooks for analysis
-└── src/              # Source code
-```
 
-## Setup Instructions
-
-1. Create a virtual environment:
-```bash
-python -m venv .venv
-source .venv/bin/activate  # On Unix/macOS
+```
+.
+├── src/
+│   ├── trainyolo.py       # YOLOv8 training script
+│   ├── detect.py          # Detection script
+│   └── generate_report.py # Performance report generation
+├── data/
+│   └── data.yaml          # Dataset configuration
+├── Individual Assignment - DAI - Karl M. Kohler.docx  # Complete project report
+└── requirements.txt       # Project dependencies
 ```
 
-2. Install dependencies:
+## Quick Start
+
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Download the dataset:
+2. Run detection:
 ```bash
-kaggle datasets download -d muhammadzakria2001/space-debris-detection-dataset-for-yolov8
+python src/detect.py
 ```
 
-## Dataset
-The project uses the Space Debris Detection Dataset from Kaggle, which is specifically formatted for YOLOv8 object detection. The dataset contains images of space debris with corresponding annotations.
+3. Generate performance report:
+```bash
+python src/generate_report.py
+```
 
-## Model Architecture
-The project implements transformer-based models for space debris detection, including:
-- Vision Transformer (ViT)
-- DETR (Detection Transformer)
-- Swin Transformer
+## Model Performance
 
-## Usage
-[To be added as we develop the implementation]
+The YOLOv8 model achieves:
+- mAP50: 0.865
+- Mean Precision: 0.851
+- Mean Recall: 0.767
+- Mean F1-Score: 0.792
 
-## Evaluation Metrics
-- Mean Average Precision (mAP)
-- Intersection over Union (IoU)
-- Precision and Recall
-- F1 Score
-
-## License
-MIT License 
+For detailed analysis and discussion, please refer to the main report document. 
